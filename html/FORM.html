@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    
+    <form action="index.php" method="post">
+
+        <label for="username"> username: </label>
+        <input type="text" id=" username"  required>
+
+        <br>
+        <label for="password"> password: </label>
+        <input type="password" required><br>
+
+        <input type="reset">
+        <input type="submit">
+    </form><br>
+
+    <h1> Personal Information Form</h1>
+
+    <form action="index.php" method="post">
+
+        <label for="username"> username: </label>
+        <input type="text" id=" username" placeholder="username" minlength="8" maxlength="12" required><br>
+
+        <label for="password"> password: </label>
+        <input type="password" id=" password" placeholder="password" minlength="8" maxlength="12" required><br>
+
+
+        <label for="email"> email add.: </label>
+        <input type="email" id=" email" placeholder="dikoalamsayo@gmail.com"><br>
+
+
+        <label for="phone"> phone no.: </label>
+        <input type="tel" id=" phone" placeholder=" +63" pattern=" 0-9 " maxlength="10" required><br>
+
+
+        <label for="date"> birthdate: </label>
+        <input type="date" id="date"><br>
+
+
+        <label for="gender"> gender:</label>
+
+        <label for="male"> Male</label>
+        <input type="checkbox" id="male" value="male" name="gender">
+        <label for="female"> Female</label>
+        <input type="checkbox" id="female" value="female" name="gender"><br>
+
+
+        <label for=" title"> title: </label>
+        
+        <label for=" Mr."> Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms."> Ms. </label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="Mrs."> Mrs.</label>
+        <input type="radio" id="Mrs." value="Mrs." name="title"><br>
+
+
+        <label for="status"> status:</label>
+        
+        <select>
+            <option value="single"> single</option>
+            <option value="married"> married</option>
+            <option value="divorced"> divorced</option>
+            <option value="widowed"> widowed</option>
+        
+        </select><br>
+
+
+        <label for="comment"> comment:</label>
+        <textarea id="comment"></textarea><br>
+        
+
+        <label for="file"> file:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br><br>
+
+        
+        <input type="reset" >
+        <input type="submit">
+    </form>
+
+</body>
+</html>

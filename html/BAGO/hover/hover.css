@@ -1,0 +1,38 @@
+a:link{
+    font-size: 30px;
+    color: rgb(13, 49, 255);
+}
+
+a:hover{
+    color: rgb(86, 125, 253) ;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(216, 216, 216);
+}
+
+
+
+button:hover{
+    font-size: 1.1em;
+    background-color: aqua;
+}
+
+button:active{
+    background-color: rgb(194, 2, 2);
+}
+
+
+Number
+
+li:
+
+li:hover{
+    background-color: aquamarine;
+}
+
+

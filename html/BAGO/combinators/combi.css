@@ -1,0 +1,28 @@
+body p{
+    background-color: bisque;
+}
+
+.container p{
+    border-bottom: solid;
+}
+ descendant
+
+
+#container1 ~ p{
+    border: 3px solid;
+}
+ general sibling
+
+#container2{
+    border: 2px solid;
+}
+
+
+#container3 > p{
+    background-color: aqua;
+}
+ child
+
+#container1 + p{
+    background-color: blue;
+}

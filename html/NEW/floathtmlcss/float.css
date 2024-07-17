@@ -1,0 +1,19 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    float: left; 
+    margin: 5px;
+
+}
+#box2{
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    margin: 5px;
+}
+body{
+    border: solid black;
+    display: flow-root;
+}

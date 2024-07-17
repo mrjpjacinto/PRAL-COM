@@ -1,0 +1,23 @@
+#h2{
+    border-style: dotted;
+}
+#h3{
+    border-style: solid;
+    border-width: 5px;
+}
+#h4{
+    border-style: groove;
+    border-width: 10px;
+    border-color: aqua;
+}
+#p1{
+    border-style: double;
+}
+#p2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+}
+#p3{
+    border-bottom: solid;
+}
